@@ -1,0 +1,106 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Roboto&display=swap');
+
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto;
+}
+nav{
+    display: flex;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    padding: 10px 30px;
+    justify-content: space-between;
+    padding-top: 20px;
+    /* flex-direction: row; it is a default value */
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+.verticle-line{
+    height: 30px;
+    border-left: 1px solid lightgray;
+    margin-inline:10px;/*margin-inline for the margin left and margin right*/
+}
+.tex{
+    font-family: Roboto;
+font-size: 25px;
+font-weight: 300;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.nav-right>a{
+    padding: 10px;
+}
+.get_quote{
+   border-radius: 23.5px;
+   background-color: #184655;
+   box-shadow: 2px 3px 2px 0px black;
+   color: white;
+   font-size: 30px;
+   padding:5px 30px;
+   font-weight: 500;
+   border: none;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    background-image: linear-gradient(45deg,#e9e3e6,#d9e4e9);
+    margin: 30px;
+    height: 472px;
+    /* background-image: url("/assets/heroWallpaper.svg"); */
+}
+.hero-text>h1{
+    color: #184655;
+font-family: Poppins;
+font-size: 45px;
+font-weight: 700;
+line-height: 60px;
+}
+.tags{
+    display: flex;
+    width: 330px;
+    padding-top: 10px;
+    justify-content: space-between;
+    color: #53748C;
+    font-size: 21px;
+}
+.inut-div{
+    overflow: hidden;
+    border-radius: 19px;
+    background-color: #fff;
+    display: flex;
+    width: 546px;
+    margin: 20px 0px;
+}
+#hero-input{
+    flex:2;
+    border: none;
+    padding: 10px 30px;
+    color: #727272;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 118%; /* 25.96px */
+}
+#hero-button{
+    flex:1;
+    color: #FFF;
+text-align: center;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 118%; /* 25.96px */
+border-radius: 0px 19px 19px 0px;
+background: #184655;
+border: none;
+padding: 25px 10px;
+cursor: pointer;
+}
