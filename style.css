@@ -15,9 +15,6 @@ nav {
   padding-top: 20px;
   /* flex-direction: row; it is a default value */
 }
-.mobilemenu{
-    display: none;
-}
 .nav-left {
   display: flex;
   align-items: center;
@@ -247,7 +244,7 @@ border: none;
 padding: 5px 20px;
 margin-top: 70px;
 }
-@media screen and (max-width:91100px) {
+@media screen and (max-width:1100px) {
     .main-class{
         flex-direction: column;
     }
